@@ -1,0 +1,24 @@
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: antiquewhite;
+}
+
+.charact {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2vh;
+    border: 1vh #7e1ab0 solid;
+    margin-bottom: 2vh;
+}
+
+p {
+    font-size: 20px;
+}
+image {
+    height: 200px;
+    width: 200px;
+}
