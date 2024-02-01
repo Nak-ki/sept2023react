@@ -1,0 +1,14 @@
+.simpson {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 5vh;
+    border: 1vh darkorange solid;
+    border-radius: 1vh;
+    padding: 1vh;
+}
+
+p {
+    font-size: 20px;
+}
