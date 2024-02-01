@@ -360,7 +360,7 @@ const App = () => {
             }];
     return (
         <div>
-            {rickAndMortyArr.map((character, index) => <Character character ={character} key = {character.id}/>)}
+            {rickAndMortyArr.map(character => <Character character ={character} key = {character.id}/>)}
 
         </div>
     );
