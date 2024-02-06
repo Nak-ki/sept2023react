@@ -1,0 +1,19 @@
+.post{
+    width: 150px;
+    display: flex;
+   align-items: center;
+    padding: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    flex-direction: column;
+    border: 5px seagreen solid;
+
+
+}
+button{
+
+    width:40px;
+    height: 20px;
+
+
+}
