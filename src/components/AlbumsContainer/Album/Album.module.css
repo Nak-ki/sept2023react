@@ -1,0 +1,17 @@
+.album {
+    width: 300px;
+    margin-top: 10px;
+    padding: 8px;
+    border: 3px #4d0670 solid;
+    font-family: "Clicker Script", cursive;
+    font-size: 23px;
+
+}
+
+.album:hover {
+    border-radius: 8px;
+    /*transition: 2s;*/
+    border: 5px #440344 dotted;
+    /*background: #dbbff5;*/
+    color: #440344;
+}

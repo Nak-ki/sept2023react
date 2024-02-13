@@ -1,0 +1,30 @@
+.comment {
+    width: 300px;
+    margin-top: 10px;
+    padding: 8px;
+    border: 3px #020459 solid;
+    font-family: "Clicker Script", cursive;
+    font-size: 25px;
+
+}
+.comment:hover {
+    border-radius: 8px;
+    /*transition: 2s;*/
+    border: 5px #020459 dotted;
+    /*background: #dbbff5;*/
+    color: #020459;
+}
+
+button{
+    color: #010125;
+    border: 1px midnightblue solid;
+    font-size: 15px;
+    padding: 2px;
+    background: #dadaf8;
+}
+
+
+button:hover{
+    background: midnightblue;
+    color: whitesmoke;
+}

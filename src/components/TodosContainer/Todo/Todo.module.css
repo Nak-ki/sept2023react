@@ -1,0 +1,16 @@
+.todo{
+    width: 300px;
+    margin-top: 10px;
+    padding: 10px;
+    font-family: "Clicker Script", cursive;
+    font-size: 23px;
+    border:3px #024210 solid;
+}
+
+.todo:hover{
+    border-radius: 50px;
+    /*background: #b0eeb7;*/
+    border: 5px #024210 dotted;
+    color: #024210;
+}
+

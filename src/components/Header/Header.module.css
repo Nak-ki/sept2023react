@@ -1,0 +1,16 @@
+.navlink {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    font-family: "Clicker Script", cursive;
+    color: mediumorchid;
+    font-size: 25px;
+    transition: 1s;
+}
