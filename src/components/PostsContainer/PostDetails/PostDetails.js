@@ -1,13 +1,15 @@
+import css from './PostDetails.module.css'
+
 const PostDetails = ({post}) => {
 
     const {id, userId, title, body} = post
 
     return (
-        <div>
-            <p>id: {id}</p>
-            <h3>userId: {userId}</h3>
-            <h3>title: {title}</h3>
-            <p>body: {body}</p>
+        <div className={css.postDet}>
+            <p>Id: {id}</p>
+            <h3>UserId: {userId}</h3>
+            <h3>Title: {title}</h3>
+            <p>Body: {body}</p>
         </div>
     );
 };

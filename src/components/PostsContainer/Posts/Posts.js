@@ -1,10 +1,11 @@
 import {Post} from "../Post/Post";
+import css from './Posts.module.css'
 
 const Posts = ({posts}) => {
 
 
     return (
-        <div>
+        <div className={css.postss}>
             {posts.map(post => <Post post={post} key={post.id}/>)}
         </div>
     );

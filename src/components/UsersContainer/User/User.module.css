@@ -1,0 +1,24 @@
+
+.user{
+    display: flex;
+    flex-direction: column;
+    width: 300px ;
+    margin-top: 10px;
+    padding: 8px;
+    border: silver 3px solid;
+    background: whitesmoke;
+    border-radius: 3px;
+}
+
+.user>button{
+    padding: 3px;
+    margin-top: 5px;
+    background: powderblue;
+    border: 1px silver solid;
+    border-radius: 3px;
+}
+
+.user>h3{
+
+    color: #545252;
+}

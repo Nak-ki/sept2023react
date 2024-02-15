@@ -1,0 +1,19 @@
+.comment {
+    display: flex;
+    flex-direction: column;
+    width: 550px ;
+    margin-top: 10px;
+    padding: 8px;
+    border: #05053b 3px solid;
+    background: whitesmoke;
+    border-radius: 3px;
+}
+.comment>p {
+    margin-top: 3px;
+    color: #05053b;
+}
+
+.comment>h3{
+    margin-top: 3px;
+    color:  #05053b;
+}

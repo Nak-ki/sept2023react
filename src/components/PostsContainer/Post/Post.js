@@ -1,5 +1,7 @@
 import {useNavigate} from "react-router-dom";
 
+import css from './Post.module.css'
+
 const Post = ({post}) => {
 
     const {id, title} = post
@@ -7,9 +9,9 @@ const Post = ({post}) => {
     const navigate = useNavigate()
 
     return (
-        <div>
-            <h3>id: {id}</h3>
-            <h3>title: {title}</h3>
+        <div className={css.post}>
+            <p>Id: {id}</p>
+            <h3>Title: {title}</h3>
             <button onClick={() => navigate(id.toString() + '/comments', {state:{id}})}>Show Post Details</button>
         </div>
     );
