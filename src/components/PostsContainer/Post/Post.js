@@ -12,7 +12,7 @@ const Post = ({post}) => {
         <div className={css.post}>
             <p>Id: {id}</p>
             <h3>Title: {title}</h3>
-            <button onClick={() => navigate(id.toString() + '/comments', {state:{id}})}>Show Post Details</button>
+            <button onClick={() => navigate('/posts/' + id.toString() + '/comments', {state:{id}})}>Show Post Details</button>
         </div>
     );
 };

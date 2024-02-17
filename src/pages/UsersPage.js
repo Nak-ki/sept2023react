@@ -1,4 +1,4 @@
-import {Outlet, useLoaderData} from "react-router-dom";
+import {useLoaderData} from "react-router-dom";
 
 import {Users} from "../components/UsersContainer/Users/Users";
 
@@ -9,7 +9,6 @@ const UsersPage = () => {
     return (
         <div>
             <Users users={data}/>
-            <Outlet/>
         </div>
     );
 };

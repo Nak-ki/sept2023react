@@ -1,4 +1,4 @@
-import {Outlet, useLoaderData} from "react-router-dom";
+import {useLoaderData} from "react-router-dom";
 
 import {Posts} from "../components/PostsContainer/Posts/Posts";
 
@@ -9,7 +9,6 @@ const PostUserPage = () => {
     return (
         <div>
             <Posts posts={data}/>
-            <Outlet/>
         </div>
     );
 };
