@@ -1,4 +1,4 @@
-import {Characters} from "../components/CharacterContainer/Characters";
+import {Characters} from "../components/CharacterContainer";
 
 const CharacterPage = () => {
 

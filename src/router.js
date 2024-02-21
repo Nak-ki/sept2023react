@@ -1,4 +1,4 @@
-import {createBrowserRouter, Navigate, RouterProvider} from "react-router-dom";
+import {createBrowserRouter, Navigate} from "react-router-dom";
 
 import {MainLayout} from "./layouts/MainLayout";
 import {CharacterPage, EpisodePage} from "./pages";
