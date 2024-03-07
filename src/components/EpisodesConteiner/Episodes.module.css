@@ -1,0 +1,48 @@
+body{
+    margin-left: 30px;
+    /*display: flex;*/
+    background: #07073a;
+    color: whitesmoke;
+
+}
+.episodes{
+    display: flex;
+    margin-left: 100px;
+    justify-content: center;
+    align-items: center;
+    /*flex-direction: column ;*/
+    width: 400px;
+    flex-wrap: wrap;
+    /*flex-direction: column;*/
+    font-size: 30px;
+
+}
+.ep{
+    margin-left: 30px;
+    align-content: center;
+    width: 1050px;
+
+}
+
+.buttons{
+    width: 1500px;
+    display: flex;
+    flex-direction: row;
+}
+
+.episodes>.buttons>button{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-bottom: 5px;
+    padding: 3px;
+    font-size: 20px;
+    width: 200px;
+    border: #70d90e 2px solid;
+
+}
+button:hover{
+    background: #ef2088;
+    color:  #70d90e;
+}

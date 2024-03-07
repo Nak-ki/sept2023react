@@ -1,0 +1,25 @@
+.episode{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    padding: 50px;
+    margin-top: 10px;
+
+
+}
+.episode:hover{
+    background: #70d90e;
+    color: #ef2088;
+    border-radius: 20px;
+}
+
+
+
+/*h3{*/
+/*    margin-left: 10px;*/
+/*}*/
+/*.episode>button{*/
+/*    margin-left: 10px;*/
+/*}*/

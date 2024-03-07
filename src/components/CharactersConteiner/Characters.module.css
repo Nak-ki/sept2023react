@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    display: flex;
+    background: #07073a;
+    color: whitesmoke;
+}
+.characters{
+    display: flex;
+    margin: 12.5px;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    flex-wrap: wrap;
+    /*justify-content: space-between ;*/
+    /*align-items: center;*/
+    /*flex-direction: column ;*/
+
+}
