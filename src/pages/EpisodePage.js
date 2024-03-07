@@ -1,4 +1,4 @@
-import {Episodes} from "../components/EpisodesConteiner/Episodes";
+import {Episodes} from "../components/EpisodesConteiner";
 
 const EpisodePage = () => {
     return (
